@@ -1,0 +1,15 @@
+@import "../../assets/scss//variables.scss";
+
+.layout__container {
+  height: auto;
+  width: 100%;
+  background-color: $grey;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    margin: 50px 0;
+    max-width:  900px;
+    width: inherit;
+  }
+}

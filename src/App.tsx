@@ -1,8 +1,11 @@
+import Curriculum from "./components/curriculum/curriculum";
+import Layout from "./components/layout/layout";
+
 function App() {
   return (
-    <div className="App">
-  
-    </div>
+    <Layout>
+      <Curriculum />
+    </Layout>
   );
 }
 
