@@ -2,6 +2,30 @@
 
 .sidebar__container {
   background-color: $greyDark;
-  width: 30%;
+  width: 25%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 45px;
 }
+
+
+.image__content {
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__src {
+    border-radius: 100%;
+    border: 1px solid $white;
+  }
+}
+
+.profile__content {
+  margin-bottom: 30px;
+  width: 100%;
+}
+ 
